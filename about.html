@@ -18,72 +18,77 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css-about/style.css" />
+    <link rel="stylesheet" href="./css/about.css" />
   </head>
   <body>
-    <header class="header">
-        <div class="main">
-          
-          <div class="container">
-            
-            <h1>Pooch Care</h1>
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link nav_1 active" aria-current="page" href="../index.html">Home</a>
-              </li><li class="nav-item">
-                <a class="nav-link nav_2 active" aria-current="page" href="#">About</a>
-              </li><li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../Services/index-Services.html">Services</a>
-              </li> </li><li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Gallery</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                  >Blog <i class="fa-solid fa-angle-down"></i> </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item nav-link" href="#">Blog Posts</a></li>
-                  <li><a class="dropdown-item nav-link" href="#">Blog single</a></li>
-                  <li><a class="dropdown-item nav-link" href="#">Landing Page</a></li>
-                  
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              
-            </ul>
-          </div>
-          <div class="navbar-rigth">
-            <div class="icon">
-              <i class="icon-back fa-solid fa-chevron-right"></i>
-              <div class="item">
-                <div class="back">
-                  <i class="fa-solid fa-arrow-left"></i>
-                  <p>Back</p>
-                </div>
-                <div class="Download">
-                  <i class="fa-solid fa-download"></i>
-                  <p>Download</p>
-                </div>
-                <div class="Buy">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                  <p>Buy</p>
-                </div>
-              </div>
-              <i class="icon-end fa-solid fa-arrow-turn-up"></i>
+    <header class="header position-fixed start-0 end-0 bg-white py-2">
+      <div class="container ps-0 pe-5 pe-sm-5 pe-md-0">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Pooch Care</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="./blog.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Blog
+                    <i class="fa-solid fa-angle-down fs-6"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Blog Posts</a></li>
+                    <li><a class="dropdown-item" href="#">Blog single</a></li>
+                    <li><a class="dropdown-item" href="#">Landing Page</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
           </div>
+        </nav>
+      </div>
+      <div class="navbar-rigth">
+        <div class="icon">
+          <i class="icon-back fa-solid fa-chevron-right"></i>
+          <div class="item">
+            <div class="back">
+              <i class="fa-solid fa-arrow-left"></i>
+              <p>Back</p>
+            </div>
+            <div class="Download">
+              <i class="fa-solid fa-download"></i>
+              <p>Download</p>
+            </div>
+            <div class="Buy">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p>Buy</p>
+            </div>
+          </div>
+          <a href="#header">
+           <i class="icon-end fa-solid fa-turn-up"></i>
+          </a>
         </div>
+      </div>
     </header>
     <section id="carousel">
         <div class="text">
             <h2>About Us</h2>
-           <a class="home" href="../index.html">Home</a>
+           <a class="home" href="./home.html">Home</a>
            <i class="fa-solid fa-arrow-right"></i>
            <a href="#">About</a>
         </div>
@@ -91,7 +96,7 @@
     <section id="about-us">
         <div class="container">
             <div class="row">
-                <div class="col col-5">
+                <div class="col col-12 col-lg-5">
                     <div class="item-1">
                         <h4>ABOUT US</h4>
                         <h2>We have 10+ years of experience.</h2>
@@ -99,7 +104,7 @@
                             Of Your Pets!</span>
                     </div>
                 </div>
-                <div class="col col-7">
+                <div class="col col-12 col-lg-7">
                     <div class="item-2">
                         <p>Lorem ipsum dolor sit amet,Ea consequuntur .Ea consequuntur illum facere aperiam sequi optio
                             consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis</p>
@@ -122,16 +127,16 @@
                     blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
                     consectetur adipisicing elit.</p>
                 <div class="row">
-                    <div class="col col-3">
+                    <div class="col col-6 col-md-3">
                         <h3>2017</h3>
                         <span>Lorem ipsum  <br /> dolor sit amet</span>
-                    </div> <div class="col col-3">
+                    </div> <div class="col col-6 col-md-3">
                         <h3>2018</h3>
                         <span>Lorem ipsum <br /> dolor sit amet</span>
-                    </div> <div class="col col-3">
+                    </div> <div class="col col-6 col-md-3">
                         <h3>2019</h3>
                         <span>Lorem ipsum <br />  dolor sit amet</span>
-                    </div> <div class="col col-3">
+                    </div> <div class="col col-6 col-md-3">
                         <h3>2020</h3>
                         <span>Lorem ipsum <br />  dolor sit amet</span>
                     </div>
@@ -145,7 +150,7 @@
     <section id="choose-us">
         <div class="container">
             <div class="row">
-                <div class="col col-text-1 col-6">
+                <div class="col col-text-1 col-12">
                     <h4>WHO WE ARE</h4>
                     <h2>Why Choose Us</h2>
                     <p> Phasellus lacinia id erat eu
@@ -154,42 +159,42 @@
                    
                         <img src="../img/banner3.jpg" alt="">
                 </div>
-                <div class="col col-text-2 col-6">
+                <div class="col col-text-2 col-12">
                     <div class="row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-2">
                             <i class="fa-solid fa-hands-asl-interpreting"></i>
                         </div>
-                        <div class="col-10">
+                        <div class="col-12 col-md-10">
                            <a>Care Advices</a><br/>
                            <span>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
                             consectetur
                             adipisicing elit.</span>
                         </div>
                     </div> <div class="row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-2">
                             <i class="fa-solid fa-circle-question"></i>
                         </div>
-                        <div class="col-10">
+                        <div class="col-12 col-md-10">
                            <a> Emergency Services</a><br/>
                            <span>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
                             consectetur
                             adipisicing elit.</span>
                         </div>
                     </div> <div class="row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-2">
                             <i class="fa-solid fa-headphones"></i>
                         </div>
-                        <div class="col-10">
+                        <div class="col-12 col-md-10">
                            <a> Customer Supports</a><br />
                            <span>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
                             consectetur
                             adipisicing elit.</span>
                         </div>
                     </div> <div class="row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-2">
                             <i class="fa-solid fa-user-doctor"></i>
                         </div>
-                        <div class="col-10">
+                        <div class="col-12 col-md-10">
                            <a>Veterinary Help</a><br/>
                            <span>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
                             consectetur
@@ -205,7 +210,7 @@
             <h4>OUR EXPERTS</h4>
             <h2>Our Team</h2>
             <div class="row">
-                <div class="col col-3">
+                <div class="col col-6 col-lg-3">
                     <div class="card" style="width: 18rem;">
                         <div class="card-img">
                             <img src="../img/team1.jpg" class="card-img-top" alt="...">
@@ -221,7 +226,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col col-3">
+                <div class="col col-6 col-lg-3">
                     <div class="card" style="width: 18rem;">
                         <div class="card-img">
                         <img src="../img/team2.jpg" class="card-img-top" alt="...">
@@ -237,7 +242,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col col-3">
+                <div class="col col-6 col-lg-3">
                     <div class="card" style="width: 18rem;">
                         <div class="card-img">
                         <img src="../img/team3.jpg" class="card-img-top" alt="...">
@@ -253,7 +258,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col col-3">
+                <div class="col col-6 col-lg-3">
                     <div class="card" style="width: 18rem;">
                         <div class="card-img">
                         <img src="../img/team4.jpg" class="card-img-top" alt="...">
@@ -275,7 +280,7 @@
     <section id="footer">
         <div class="container">
           <div class="row">
-            <div class="col col-6">
+            <div class="col col-12 col-md-6">
               <h2>Contact information</h2>
               <div class="item">
                 <p>Address  : #135 block, Barnard St. Brooklyn, London 10036, UK</p>
@@ -289,9 +294,9 @@
                 <i class="fa-brands fa-google"></i>
               </div>
             </div>
-            <div class="col col-6">
+            <div class="col col-12 col-md-6">
               <div class="row">
-                <div class="col col-4">
+                <div class="col col-6  col-sm-4">
                   <h2>Company</h2>
                   <ul>
                   <li>
@@ -300,14 +305,14 @@
                   <li>
                     <a href="#">Blog Posts</a>
                   <li>
-                  <a href="../Services/index-Services.html">Services</a>
+                  <a href="./Services.html">Services</a>
                   </li>
                   <li>
                   <a href="#">Pricing</a>
                   </li>
                   </ul>
                 </div>
-                  <div class="col col-4">
+                  <div class="col col-6 col-sm-4">
                   <h2>Quick Links</h2>
                   <ul>
                     <li>
@@ -324,7 +329,7 @@
                     </li>
                   </ul>
                 </div>
-                <div class="col col-4">
+                <div class="col col-6  col-sm-4">
                   <h2>Support</h2>
                   <ul>
                     <li>
