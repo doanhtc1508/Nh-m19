@@ -715,3 +715,121 @@ html {
 .scroll i:hover {
     transform: translateY(-10px);
 }
+
+/* reponvise */
+@media screen and (max-width :1200px) {
+    .carousel .carousel-caption_1 {
+        left: 50px;
+        top:  160px;
+        margin-right: 0;
+    }
+    
+    .carousel .carousel-caption_2  {
+        left: 20px;
+        top  : 160px; 
+        transform: translateX(0);
+        right: 0;
+    }
+    .carousel .carousel-caption {
+        max-width: 550px;
+        bottom: 0;
+        text-align: left;
+    }
+   
+
+} 
+@media screen and (max-width :992px) {
+    .plans .container .row .col .card_2{
+        margin: 20px 0;
+        transform: scale(1 , 1) !important;
+
+    }
+    .carousel .carousel-caption_1 {
+        left: 50px;
+        top:  160px;
+        margin-right: 0;
+    }
+    
+    .carousel .carousel-caption_2  {
+        left: 20px;
+        top  : 160px; 
+        transform: translateX(0);
+        right: 0;
+    }
+    .carousel .carousel-caption {
+        max-width: 550px;
+        bottom: 0;
+        text-align: left;
+    }
+    .carousel .carousel-caption p {
+        margin-bottom: 30px;
+    }
+    .carousel .carousel-caption h5 {
+        font-size: 50px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+    
+}
+@media screen and (max-width :768px) {
+    .carousel .carousel-inner .carousel-item img {
+        min-height: 450px;
+        width: 100%;
+    }
+    .plans .container .row .col .card_2{
+        margin: 20px 0;
+        transform: scale(1 , 1) !important;
+    }
+    .carousel .carousel-caption {
+        max-width: 550px;
+        bottom: 0;
+        text-align: left;
+    }
+    .carousel .carousel-caption_1 {
+        left: 50px;
+        top:  160px;
+        margin-right: 0;
+    }
+    .carousel .carousel-caption_2  {
+        left: 20px;
+        top  : 160px; 
+        transform: translateX(0);
+        right: 0;
+    }
+    .carousel .carousel-caption p {
+        margin-bottom: 30px;
+    }
+    .carousel .carousel-caption h5 {
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: 700;
+    }
+    .carousel .carousel-caption a {
+        padding:10px 20px;
+        margin-right: 5px;
+        border-radius: 8px;
+        border: 1px solid #fff;
+        
+    }
+}
+
+@media screen and (max-width :576px)   {
+   
+    
+    .carousel .carousel-caption {
+        display: block !important;
+        max-width: 450px;
+        bottom: 0;
+        text-align: left;
+    }
+    .carousel .carousel-caption p {
+        margin-bottom: 50px;
+    }
+    .carousel .carousel-caption h5 {
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 700;
+    }
+  
+    
+}
