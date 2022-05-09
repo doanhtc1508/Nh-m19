@@ -787,10 +787,10 @@ html {
     
 }
 @media screen and (max-width :768px) {
-    .carousel .carousel-inner .carousel-item img {
+    /* .carousel .carousel-inner .carousel-item img {
         min-height: 450px;
         width: 100%;
-    }
+    } */
     .plans .container .row .col .card_2{
         margin: 20px 0;
         transform: scale(1 , 1) !important;
@@ -829,6 +829,10 @@ html {
 }
 
 @media screen and (max-width :576px)   {
+    /* .carousel .carousel-inner .carousel-item img {
+        min-height: 250px;
+        width: 100%;
+    } */
    
     
     .carousel .carousel-caption {
