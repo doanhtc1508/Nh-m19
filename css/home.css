@@ -833,8 +833,20 @@ html {
         min-height: 250px;
         width: 100%;
     } */
+    #carouselExampleIndicators {
+        padding: 0 20px;
+    }
+    .better .container {
+        padding: 20px 20px;
+    }
+    .plans .container .row {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
    
-    
+    .portfolio .row {
+        padding: 30px ;
+    }
     .carousel .carousel-caption {
         display: block !important;
         max-width: 450px;
