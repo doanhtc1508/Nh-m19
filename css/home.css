@@ -195,8 +195,22 @@ html {
 .carousel .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
+    background: #fff;
+    border: none;
     border-radius: 50%;
-    background-color: #189A46 !important;
+    margin: 0 8px 20px;
+    opacity: 1;
+}
+
+.carousel .carousel-indicators [data-bs-target]:hover {
+    width: 30px;
+    background: #189A46;
+    border-radius: 10px;
+}
+.carousel .carousel-indicators .active {
+    width: 30px;
+    background: #189A46;
+    border-radius: 10px;
 }
 /* about  */
 .about .container {
